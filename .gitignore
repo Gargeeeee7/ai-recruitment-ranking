@@ -216,3 +216,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================================
+# AI Recruitment Ranking Project
+# ==========================================
+
+# Large datasets (not stored in Git)
+data/raw/candidates.jsonl
+data/raw/candidates.jsonl.gz
+
+# Processed data
+data/processed/
+
+# Generated outputs
+outputs/*.csv
+outputs/*.json
+outputs/*.txt
+
+# Model artifacts
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+
+# FAISS indexes
+*.faiss
+*.index
+
+# Logs
+logs/
+*.log
+
+# OS files
+Thumbs.db
